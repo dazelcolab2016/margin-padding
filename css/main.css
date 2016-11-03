@@ -16,13 +16,14 @@ h1{
     text-align: center;
     font-size: 30px;
     font-family: Star Jedi Hollow;
+    transition: 3s;
         
 }
 
 div{
     align-self: center;
     background-color: yellow;
-    width: inherit;
+    width:auto;
     height: 60px;
    text-align: center;
     
@@ -30,4 +31,9 @@ div{
 a{
     font-size: 25px;
     font-family: Star Jedi;
+}
+
+h1:hover{
+    
+    font-size: 40px
 }
